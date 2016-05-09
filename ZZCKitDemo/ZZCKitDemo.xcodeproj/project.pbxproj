@@ -119,12 +119,12 @@
 		3292AC8D1CE084D2004AD421 /* UIWindow+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SSToolkitAdditions.m"; sourceTree = "<group>"; };
 		3292AC9A1CE084D2004AD421 /* MTAppLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppLanguage.h; sourceTree = "<group>"; };
 		3292AC9B1CE084D2004AD421 /* MTAppLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAppLanguage.m; sourceTree = "<group>"; };
-		3292AC9C1CE084D2004AD421 /* MTAppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppMacros.h; sourceTree = "<group>"; };
 		3292AC9D1CE084D2004AD421 /* MTTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTaskQueue.h; sourceTree = "<group>"; };
 		3292AC9E1CE084D2004AD421 /* MTTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTaskQueue.m; sourceTree = "<group>"; };
 		3292AC9F1CE084D2004AD421 /* MTUtilHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUtilHelper.h; sourceTree = "<group>"; };
 		3292ACA01CE084D2004AD421 /* MTUtilHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUtilHelper.m; sourceTree = "<group>"; };
 		3292ACA11CE084D2004AD421 /* ZZCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCKit.h; sourceTree = "<group>"; };
+		3292ACC51CE0A4FD004AD421 /* MTAppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,9 +182,10 @@
 		3292AC4F1CE084D2004AD421 /* ZZCKit */ = {
 			isa = PBXGroup;
 			children = (
+				3292ACA11CE084D2004AD421 /* ZZCKit.h */,
+				3292ACC51CE0A4FD004AD421 /* MTAppMacros.h */,
 				3292AC501CE084D2004AD421 /* Categorys */,
 				3292AC991CE084D2004AD421 /* Util */,
-				3292ACA11CE084D2004AD421 /* ZZCKit.h */,
 			);
 			name = ZZCKit;
 			path = ../ZZCKit;
@@ -193,9 +194,9 @@
 		3292AC501CE084D2004AD421 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
-				3292AC511CE084D2004AD421 /* Foundation */,
 				3292AC6A1CE084D2004AD421 /* MTCategories.h */,
 				3292AC6B1CE084D2004AD421 /* UIKit */,
+				3292AC511CE084D2004AD421 /* Foundation */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -277,7 +278,6 @@
 			children = (
 				3292AC9A1CE084D2004AD421 /* MTAppLanguage.h */,
 				3292AC9B1CE084D2004AD421 /* MTAppLanguage.m */,
-				3292AC9C1CE084D2004AD421 /* MTAppMacros.h */,
 				3292AC9D1CE084D2004AD421 /* MTTaskQueue.h */,
 				3292AC9E1CE084D2004AD421 /* MTTaskQueue.m */,
 				3292AC9F1CE084D2004AD421 /* MTUtilHelper.h */,

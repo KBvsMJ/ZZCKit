@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZZCKit"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "ZZCKit."
   s.homepage     = "https://github.com/zhouzhicun/ZZCKit"
   s.license      = {

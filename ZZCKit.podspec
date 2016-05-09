@@ -21,8 +21,9 @@ Pod::Spec.new do |s|
 
   s.author       = { "zzc" => "315701008@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/zhouzhicun/ZZCKit.git"}
-
+  
+  #s.source       = { :git => "https://github.com/zhouzhicun/ZZCKit.git"}
+  s.source       = { :git => "/Users/zzc/Desktop/ZZCKit/ZZCKit"}
  
   s.source_files = 'ZZCKit/*.{h,m}'
   s.public_header_files = 'ZZCKit/*.h'

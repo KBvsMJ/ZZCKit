@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZZCKit"
-  s.version      = "1.0.0"
+  s.version      = "0.1.1"
   s.summary      = "ZZCKit."
   s.homepage     = "https://github.com/zhouzhicun/ZZCKit"
   s.license      = {
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author       = { "zzc" => "315701008@qq.com" }
   s.platform     = :ios, "7.0"
   
-  s.source       = { :git => "https://github.com/zhouzhicun/ZZCKit.git"}
+  s.source       = { :git => "https://github.com/zhouzhicun/ZZCKit.git", :tag => s.version.to_s}
   #s.source       = { :git => "/Users/zzc/Desktop/ZZCKit/ZZCKit"}
  
   s.source_files = 'ZZCKit/*.{h,m}'
